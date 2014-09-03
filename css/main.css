@@ -10,6 +10,8 @@ a:hover{
 }
 #warpper{
 	margin: 0 200px;
+	height: 500px;
+	border: 1px solid #ccc;
 }
 
 #header{ 
