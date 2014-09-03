@@ -1,0 +1,17 @@
+p{ text-indent: 2em; line-height: 24px;}
+hr{
+	border-top: 1px solid #ccc;
+}
+a{
+	color: #000;
+}
+a:hover{
+	color: #c00;
+}
+#warpper{
+	margin: 0 200px;
+}
+
+#header{ 
+	height: 110px; width: 100%;margin-bottom: 20px;
+}
