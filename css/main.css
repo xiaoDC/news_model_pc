@@ -1,3 +1,5 @@
+*{margin: 0;padding: 0;}
+
 p{ text-indent: 2em; line-height: 24px;}
 hr{
 	border-top: 1px solid #ccc;
@@ -8,12 +10,36 @@ a{
 a:hover{
 	color: #c00;
 }
+#header{ 
+	height: 110px; width: 100%;
+}
 #warpper{
-	margin: 0 200px;
+	margin: 20px 200px;
 	height: 500px;
-	border: 1px solid #ccc;
+
+	/*border: 1px solid #ccc;*/
+	/*overflow: hidden;*/
+}
+#footer{ height: 200px;width: 100%;}
+
+.left, #left{
+	height: 100%;
+	width: 66%;
+	float: left;
+}
+.right, #right{
+	height: 100%;
+	width: 33%;
+	float: right;
 }
 
-#header{ 
-	height: 110px; width: 100%;margin-bottom: 20px;
+.left .content{
+	height: 100%;
+	border: 1px solid #ccc; 
+	margin-right: 10px;
+}
+.right .content{
+	height: 100%;
+	border: 1px solid #ccc; 
+	margin-left: 10px;
 }
