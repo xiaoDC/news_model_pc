@@ -5,20 +5,18 @@ hr{
 	border-top: 1px solid #ccc;
 }
 a{
-	color: #000;
+	color: #000; text-decoration: none;
 }
 a:hover{
-	color: #c00;
+	color: #c00; text-decoration: underline;
 }
 #header{ 
 	height: 110px; width: 100%;
 }
 #warpper{
 	margin: 20px 200px;
-	height: 500px;
-
 	/*border: 1px solid #ccc;*/
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 #footer{ height: 200px;width: 100%;}
 
@@ -40,6 +38,28 @@ a:hover{
 }
 .right .content{
 	height: 100%;
-	border: 1px solid #ccc; 
 	margin-left: 10px;
+}
+
+.right .module{
+	border: 1px solid #ccc;
+	border-radius: 5px; box-shadow: 2px 2px 10px #909090;
+	margin-bottom: 20px;
+}
+
+.right .module .title{
+	font-size: 20px;
+	line-height: 30px;
+	height: 30px;
+	margin:5px 10px 10px;
+}
+.right .module ul{
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.right .module ul li{
+	list-style: none;
+	padding-left: 0;
+	line-height: 20px;
+	margin-top: 5px;
 }
