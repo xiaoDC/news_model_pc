@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0;}
 
-p{ text-indent: 2em; line-height: 24px;}
+p{ text-indent: 2em; line-height: 24px;margin: 0 0 10px;font-size: 14px;n}
 hr{
 	border-top: 1px solid #ccc;
 }
@@ -10,11 +10,21 @@ a{
 a:hover{
 	color: #c00; text-decoration: underline;
 }
+
+h3{
+	margin-top: 20px;
+	margin-bottom: 14px;font-size: 24px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
 #header{ 
 	height: 110px; width: 100%;
 }
 #warpper{
-	margin: 20px 200px;
+	margin: 20px 170px;
+	min-width: 660px;
 	/*border: 1px solid #ccc;*/
 	overflow: hidden;
 }
@@ -22,23 +32,53 @@ a:hover{
 
 .left, #left{
 	height: 100%;
-	width: 66%;
+	width: 65%;
 	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #909090;
+	margin-bottom: 10px;
 }
 .right, #right{
 	height: 100%;
-	width: 33%;
+	width: 32%;
 	float: right;
+	margin-right: 10px;
 }
+.left_header{ text-align: center;}
+.artInfo{ margin: 2px 20px;text-align: center; border-bottom: 1px solid #ccc;padding-bottom: 3px;}
+.artInfo span{ margin: 2px 7px;}
+.left_content{ 
+	margin: 20px 10px;
+	padding: 5px;margin-bottom: 0px;
+}
+
 
 .left .content{
 	height: 100%;
-	border: 1px solid #ccc; 
-	margin-right: 10px;
+	margin-right: 10px;padding: 5px;
 }
+
+.content_line {
+background: url(../images/line.png) repeat-x;
+height: 1px;
+overflow: hidden;
+font-size: 0;
+margin: 10px 0;
+clear: both;
+}
+.content_print.content-tools-wrap{
+	padding: 0 10px;
+	font-size: 12px;
+}
+.content-tools-share{
+	float: left;
+}
+
+
 .right .content{
 	height: 100%;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .right .module{
